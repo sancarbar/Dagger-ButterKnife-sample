@@ -1,4 +1,4 @@
-package com.tuatara.dagger_butterknife_sample;
+package com.tuatara.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

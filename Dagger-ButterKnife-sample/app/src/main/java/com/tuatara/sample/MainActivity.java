@@ -1,4 +1,4 @@
-package com.tuatara.dagger_butterknife_sample;
+package com.tuatara.sample;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

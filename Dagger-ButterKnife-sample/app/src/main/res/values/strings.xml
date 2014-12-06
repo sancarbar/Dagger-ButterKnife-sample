@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Dagger-ButterKnife-sample</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="dagger_example">Dagger Example</string>
     <string name="action_settings">Settings</string>
 
 </resources>

@@ -26,4 +26,5 @@ public class MyApplication
     {
         objectGraph.inject( injectionTarget );
     }
+
 }

@@ -1,7 +1,7 @@
 package com.tuatara.sample.inject;
 
 import android.content.Context;
-import com.tuatara.sample.activity.MainActivity;
+import com.tuatara.sample.ui.activity.MainActivity;
 import com.tuatara.sample.analytics.Analytics;
 import com.tuatara.sample.analytics.AnalyticsCollection;
 import com.tuatara.sample.analytics.FlurryAnalytics;

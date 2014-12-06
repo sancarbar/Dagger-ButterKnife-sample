@@ -1,7 +1,7 @@
 Dagger-ButterKnife-sample
 =========================
 
-This project is sample project about how to use two libraries for dependencies and views injection in 
+This project is a sample project that shows how to use two libraries for dependencies and views injection for 
 Android Applications.
 
 

@@ -18,10 +18,8 @@ import com.tuatara.sample.R;
 public class SampleFragment
     extends Fragment
 {
-
     @InjectView( R.id.label )
     TextView label;
-
 
     @Override
     public View onCreateView( LayoutInflater inflater, @Nullable ViewGroup container,
@@ -36,5 +34,14 @@ public class SampleFragment
     public void updateLabelValue( View view )
     {
         label.setText( getString( R.string.injection_worked_properly ) );
+    }
+
+    @Override
+    public void onDestroyView()
+    {
+        super.onDestroyView();
+        // According to http://jakewharton.github.io/butterknife
+        // fragment injection should be manually reset
+        ButterKnife.reset( this );
     }
 }

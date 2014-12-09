@@ -17,11 +17,10 @@ import javax.inject.Inject;
 public class MainActivity
     extends ActionBarActivity
 {
-
     @Inject
     Analytics analytics;
 
-    @InjectView( R.id.fragmentContainer )
+    @InjectView(R.id.fragmentContainer)
     FrameLayout fragmentContainer;
 
 
